@@ -35,6 +35,8 @@ This folder includes a configuration file that stores:
 > **Note:**  
 > Ensure you are using the correct version of Python for this project. The current recommended version is Python 3.9.13.
 
-3. After running the script, a "transformed" folder will be created with subfolders named after patient IDs. Each subfolder will contain a CSV file named after the studyInstanceUID.
+3. Output Folders and Files:
+   After running the script, the following structure will be created:
+   `transformed/` folder will contain subfolders named after each `patientID`, and within each patient folder, CSV files will be created, with the filenames corresponding to the `studyInstanceUID` values.
 4. Additionally, Datamart folders will be created, containing CSV files that categorize DICOM data for analysis.
 5. Once the folders and files are generated, open the Jupyter notebook in the summary folder to analyze the data in detail. 
