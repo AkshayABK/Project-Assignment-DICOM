@@ -32,7 +32,8 @@ This folder includes a configuration file that stores:
    ```bash
    python main.py
 
-    [!NOTE] Python version I used 3.9.8
+> **Note:**  
+> Ensure you are using the correct version of Python for this project. The current recommended version is Python 3.9.13.
 
 3. After running the script, a "transformed" folder will be created with subfolders named after patient IDs. Each subfolder will contain a CSV file named after the studyInstanceUID.
 4. Additionally, Datamart folders will be created, containing CSV files that categorize DICOM data for analysis.
